@@ -18,8 +18,8 @@ Feature: GIT Requests
     Then User should verify statuscode 200 and response body contains "<name>" value
 
     Examples: 
-      | endpoint              | name       |
-      | users/SAral0027/repos | BenchStudy |
+      | endpoint              | name      |
+      | users/SAral0027/repos | BDD-Style |
 
   @CREATEREPO
   Scenario Outline: Create New Repo in GIT
