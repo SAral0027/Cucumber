@@ -1,0 +1,5 @@
+com\runner\TestRunnerClass.class
+com\stepdefinition\GITRequests.class
+com\report\Reporting.class
+com\base\BaseClass.class
+com\stepdefinition\CommonStep.class

@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 14.10 s <<< FAILURE! -- in com.runner.TestRunnerClass
+Create New Repo in GIT.User should verify response body "REST" and statuscode 201 -- Time elapsed: 0.028 s <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_response_body_and_statuscode(GITRequests.java:67)
+	at ✽.User should verify response body "REST" and statuscode 201(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:28)
+
+Create New Repo in GIT -- Time elapsed: 0.056 s <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_response_body_and_statuscode(GITRequests.java:67)
+	at ✽.User should verify response body "REST" and statuscode 201(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:28)
+
+Update Existing Repo in GIT.User should verify response body conatins "RESTAssured" and statuscode 200 -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_response_body_conatins_and_statuscode(GITRequests.java:92)
+	at ✽.User should verify response body conatins "RESTAssured" and statuscode 200(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:38)
+
+Update Existing Repo in GIT -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_response_body_conatins_and_statuscode(GITRequests.java:92)
+	at ✽.User should verify response body conatins "RESTAssured" and statuscode 200(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:38)
+
+Delete Existing Repo in GIT.User should verify statuscode 204 -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_statuscode(GITRequests.java:110)
+	at ✽.User should verify statuscode 204(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:48)
+
+Delete Existing Repo in GIT -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.stepdefinition.GITRequests.user_should_verify_statuscode(GITRequests.java:110)
+	at ✽.User should verify statuscode 204(file:///C:/Users/VDI003/eclipse-workspace/Cucumber-API-RA/src/test/resources/FeatureFiles/GIT-Requests.feature:48)
+
